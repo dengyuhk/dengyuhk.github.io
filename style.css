@@ -1,0 +1,105 @@
+body {
+	background-color: #777;
+    margin:0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #0033FF;
+}
+a:visited {
+	color: #0033FF; 
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'opensans-bold', sans-serif;
+}
+
+
+#content {
+	background-color: #ddd;
+	width: expression(document.body.clientWidth > 960? "960px": "auto" );
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+}
+
+#one-column {
+	width: 960px;
+	border: 0px;
+	text-align: left;
+	padding: 0 30px;
+}
+
+#two-column {
+	width: 960px;
+	border: 0px;
+	text-align: center;
+	padding: 0 30px;
+}
+
+#left-column {
+	width: 320px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
+}
+
+#right-column {
+	width: 540px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
+}
+
+#name {
+	color: #111111;
+	font-size: x-large;
+}
+
+#affiliation, #email {
+	color: #333333;
+	font-size: medium;
+}
+
+#bio {
+	text-align: justify;
+	font-size: medium;
+}
+
+#section {
+	margin-top: 50px;
+	font-size: large;
+}
+
+#img-me {
+	width: 300px;
+	padding: 50px 0px;
+}
+
+#img-pub {
+	width: 300px;
+	padding: 20px 0px;
+}
+
+#pub-title {
+	font-weight: bolder;
+}
+
+#pub-author {
+}
+
+#pub-journal {
+	font-style: italic;
+}
+
+#pub-link {
+	font-weight: bolder;
+}
+
