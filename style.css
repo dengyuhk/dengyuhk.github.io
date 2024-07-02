@@ -2,11 +2,14 @@ html {
 	/* background-color: #EEEEEE;  */
 	background-image: url("./assets/img/bg3.jpg");
 }
+
+
+
 body {
 	/* background: "./assets/img/bg.jpg"; */
-	margin-left: 360px;
-	margin-right: 360px;
+	margin-left: 25em;
 	background-color: #ffffff;
+	margin-right: 25em;
 
     /* margin:0 auto; */
 }
