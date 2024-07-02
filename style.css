@@ -1,12 +1,20 @@
+html {
+	/* background-color: #EEEEEE;  */
+	background-image: url("./assets/img/bg3.jpg");
+}
 body {
-	background-color: #777;
-    margin:0 auto;
+	/* background: "./assets/img/bg.jpg"; */
+	margin-left: 360px;
+	margin-right: 360px;
+	background-color: #ffffff;
+
+    /* margin:0 auto; */
 }
 
 a {
 	text-decoration: none;
 }
-a:link {
+/* a:link {
 	color: #0033FF;
 }
 a:visited {
@@ -102,4 +110,4 @@ p {
 #pub-link {
 	font-weight: bolder;
 }
-
+ */
